@@ -11,7 +11,7 @@ Parvo is programmable assurance for public promises. A user stakes GEN behind a 
 - Network: `GenLayer StudioNet`
 - Contract address: `0xe38Fcd81fbFD216A0d44968463784f822a682602`
 - Deploy transaction: `0xeb746577e1844037abe42ebcd660bffaf100641d80dba97ee43d1f225f84fbfa`
-- Demo artifact: `artifacts/parvo-walkthrough.gif`
+- Demo artifact: `demo/parvo-walkthrough.gif`
 - One-liner: `Parvo turns public promises into archive-backed assurance bonds that can be checked, contested, and settled on GenLayer.`
 
 ## Highlights
