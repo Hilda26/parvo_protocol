@@ -5,7 +5,8 @@ import { studionet } from "genlayer-js/chains";
 import { TransactionStatus } from "genlayer-js/types";
 import type { CalldataEncodable, TransactionHash } from "genlayer-js/types";
 
-export const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_PARVO_CONTRACT as `0x${string}` | undefined;
+const DEFAULT_CONTRACT_ADDRESS = "0xe38Fcd81fbFD216A0d44968463784f822a682602" as const;
+export const CONTRACT_ADDRESS = (process.env.NEXT_PUBLIC_PARVO_CONTRACT || DEFAULT_CONTRACT_ADDRESS) as `0x${string}` | undefined;
 const endpoint = process.env.NEXT_PUBLIC_GENLAYER_ENDPOINT ?? "https://studio.genlayer.com/api";
 const explorer = "https://explorer-studio.genlayer.com";
 
