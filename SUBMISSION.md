@@ -2,6 +2,18 @@
 
 Parvo is programmable assurance for public promises. A user stakes GEN behind a quoted commitment from a public URL, names a payee, and lets the contract inspect Internet Archive change points. If the commitment becomes weakened or absent across the required run, the bond can move through breach, contest, adjudication, and settlement.
 
+## Submission Parameters
+
+- Project name: `Parvo`
+- Category/tag: `DeFi` or `Prediction Markets`
+- Live app: `https://parvo-protocol.vercel.app`
+- GitHub repository: `https://github.com/Hilda26/parvo_protocol`
+- Network: `GenLayer StudioNet`
+- Contract address: `0xe38Fcd81fbFD216A0d44968463784f822a682602`
+- Deploy transaction: `0xeb746577e1844037abe42ebcd660bffaf100641d80dba97ee43d1f225f84fbfa`
+- Demo artifact: `artifacts/parvo-walkthrough.gif`
+- One-liner: `Parvo turns public promises into archive-backed assurance bonds that can be checked, contested, and settled on GenLayer.`
+
 ## Highlights
 
 1. **Archive-backed checks.** Parvo evaluates historical captures, not only the current webpage.
@@ -33,6 +45,8 @@ Live contract:
 
 - Address: `0xe38Fcd81fbFD216A0d44968463784f822a682602`
 - Deploy tx: `0xeb746577e1844037abe42ebcd660bffaf100641d80dba97ee43d1f225f84fbfa`
+- Integration evidence tx: `0x14cb18a481d6f1b029c6e6b80ae55d3e5d0da320db4742ecf9cc52aa1393dd12`
+- Integration evidence address: `0x10F84F0259d6B857f5E8878Fa6b3878E275fB841`
 
 ```bash
 npm run verify:schema

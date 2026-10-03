@@ -2,6 +2,9 @@
 
 Parvo is a GenLayer app for archive-backed promise assurance. A promisor stakes GEN behind one sentence published on a page they control, names a payee, and lets anyone trigger archive checks against Wayback change points. If two qualifying archived versions show the promise weakened or absent, Parvo opens a contest window and can pay the stake to the payee.
 
+Live app: `https://parvo-protocol.vercel.app`  
+Repository: `https://github.com/Hilda26/parvo_protocol`
+
 ## What makes it different
 
 - **Public promise bonds:** The stake is tied to a quoted commitment, source URL, baseline archive timestamp, payee, and term.
@@ -26,6 +29,11 @@ NEXT_PUBLIC_GENLAYER_CHAIN=studionet
 ```
 
 ## Contract
+
+StudioNet deployment:
+
+- Contract: `0xe38Fcd81fbFD216A0d44968463784f822a682602`
+- Deploy transaction: `0xeb746577e1844037abe42ebcd660bffaf100641d80dba97ee43d1f225f84fbfa`
 
 `contracts/Parvo.py` exposes:
 

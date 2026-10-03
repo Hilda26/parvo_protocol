@@ -1,5 +1,8 @@
 # Parvo Contract Status
 
+Live app: `https://parvo-protocol.vercel.app`  
+Repository: `https://github.com/Hilda26/parvo_protocol`
+
 ## Implemented
 
 - `contracts/Parvo.py` defines the `Parvo` GenLayer contract.
